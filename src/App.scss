@@ -1,0 +1,96 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    background: linear-gradient(
+        90deg,
+        rgba(255,0,0,1) 0%,
+        rgba(255,154,0,1) 10%, 
+        rgba(208,222,33,1) 20%, 
+        rgba(79,220,74,1) 30%, 
+        rgba(63,218,216,1) 40%, 
+        rgba(47,201,226,1) 50%, 
+        rgba(28,127,238,1) 60%, 
+        rgba(95,21,242,1) 70%, 
+        rgba(186,12,248,1) 80%, 
+        rgba(251,7,217,1) 90%, 
+        rgba(255,0,0,1) 100%
+    );
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.registration-card {
+    padding: 0;
+}
+
+.card-body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png");
+    background-size: 10px;
+}
+
+.card-header {
+    background-image: url("https://www.bourncreative.com/wp-content/uploads/2010/10/red.jpg");
+    background-size: 100px;
+    color: lime;
+}
+
+.list-group-item {
+    background-color: bisque;
+}
+
+.gif-card {
+    background-image: url("https://c.tenor.com/nVsnTj_elCMAAAAC/shrek-dance.gif");
+    color: lime;
+    width: 500px;
+    height: 300px;
+}
+
+.tree {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    &__content {
+        display: flex;
+        &__type {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        &__height {
+            color: red;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        &__age {
+            color: skyblue;
+            margin-left: 10px;
+        }
+    }
+    &__buttons {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        button {
+            margin-left: 5px;
+        }
+    }
+}
+
+.form-input {
+    margin-left: 10px;
+}
+
+.submit-button {
+    align-items: center;
+}
